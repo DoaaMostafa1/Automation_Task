@@ -1,7 +1,6 @@
 import Pages.HomePage;
 import Pages.LoginPage;
 import Pages.RestaurantDetailsPage;
-import javafx.scene.layout.Priority;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
