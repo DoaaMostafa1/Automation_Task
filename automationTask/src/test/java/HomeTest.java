@@ -21,7 +21,7 @@ public class HomeTest extends BaseTest{
 
     @Test(priority = 1)
     public void validateSearch_UsingValidKeyWord() throws InterruptedException {
-        String keyword = "liverpool";
+        String keyword = "liver";
         Assert.assertTrue(homePage.searchUsingKeyword(keyword));
 
         homePage.selectElementFromSearchList(1);
@@ -42,7 +42,7 @@ public class HomeTest extends BaseTest{
     @Test(priority = 3)
     public void validate_mapAppearsWhenClickOnSearch() throws InterruptedException {
         driver.navigate().to("https://deliveroo.co.uk/");
-        String keyword = "######";
+        String keyword = "liver";
         Assert.assertTrue(homePage.viewMap(keyword));
 
     }
